@@ -1,5 +1,8 @@
 import './App.css';
-import EventBind from './components/EventBind';
+import ListPost from './components/ListPost';
+// import ParentComponent from './components/ParentComponent';
+// import UserGreeting from './components/UserGreeting';
+// import EventBind from './components/EventBind';
 // import Counter from './components/Counter';
 // import { Greet, ReactGreet } from './components/Greet';
 // import Greeting from './components/Greeting';
@@ -18,7 +21,10 @@ function App() {
       <Welcome name="Golang" />
       <Welcome name="Java"><button>Click</button></Welcome> */}
       {/* <Counter /> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      <ListPost />
     </div>
   );
 }

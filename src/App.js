@@ -1,5 +1,6 @@
 import './App.css';
-import ListPost from './components/ListPost';
+import DemoForm from './components/DemoForm';
+// import ListPost from './components/ListPost';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
@@ -24,7 +25,8 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <ListPost />
+      {/* <ListPost /> */}
+      <DemoForm />
     </div>
   );
 }

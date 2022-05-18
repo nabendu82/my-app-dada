@@ -1,5 +1,7 @@
 import './App.css';
-import DemoForm from './components/DemoForm';
+import RefsDemo from './components/RefsDemo';
+// import ParentLifecycle from './components/ParentLifecycle';
+// import DemoForm from './components/DemoForm';
 // import ListPost from './components/ListPost';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreeting from './components/UserGreeting';
@@ -26,7 +28,9 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
       {/* <ListPost /> */}
-      <DemoForm />
+      {/* <DemoForm /> */}
+      {/* <ParentLifecycle /> */}
+      <RefsDemo />
     </div>
   );
 }
